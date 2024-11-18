@@ -8,10 +8,7 @@ export const useAppHeader = () => {
   ] = useToggle()
 
   const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: '关于我们', href: '#' },
   ]
 
   return {
